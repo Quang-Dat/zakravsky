@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        md_2: { min: "900px" }, // Vlastní breakpoint pro max-width: 900px
+      },
     },
   },
   plugins: [],
