@@ -10,6 +10,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        zluta: "#FBC80B",
+        modra: "#3FA9F5",
       },
       screens: {
         md_2: { min: "900px" }, // Vlastní breakpoint pro max-width: 900px

@@ -49,46 +49,46 @@ const navigation = () => {
       >
         <Link
           className={`${
-            pathname === "/" ? "text-blue-500" : "text-white"
-          } my-3 md_2:mx-3 md_2:my-0`}
+            pathname === "/" ? "text-zluta" : "text-white"
+          } my-3 md_2:mx-10 md_2:my-0 hover:text-zluta`}
           href="/asd"
         >
           Domů
         </Link>
         <Link
           className={`${
-            pathname === "/5" ? "text-blue-500" : "text-white"
-          } my-3 md_2:mx-3 md_2:my-0`}
+            pathname === "/5" ? "text-zluta" : "text-white"
+          } my-3 md_2:mx-10 md_2:my-0 hover:text-zluta`}
           href="/"
         >
           Identity
         </Link>
         <Link
           className={`${
-            pathname === "/5" ? "text-blue-500" : "text-white"
-          } my-3 md_2:mx-3 md_2:my-0`}
+            pathname === "/5" ? "text-zluta" : "text-white"
+          } my-3 md_2:mx-10 md_2:my-0 hover:text-zluta`}
           href="/"
         >
           Portfolio
         </Link>
         <Link
           className={`${
-            pathname === "/5" ? "text-blue-500" : "text-white"
-          } my-3 md_2:mx-3 md_2:my-0`}
+            pathname === "/5" ? "text-zluta" : "text-white"
+          } my-3 md_2:mx-10 md_2:my-0 hover:text-zluta`}
           href="/"
         >
           Jak funguji
         </Link>
         <Link
           className={`${
-            pathname === "/5" ? "text-blue-500" : "text-white"
-          } my-3 md_2:mx-3 md_2:my-0`}
+            pathname === "/5" ? "text-zluta" : "text-white"
+          } my-3 md_2:mx-10 md_2:my-0 hover:text-zluta`}
           href="/"
         >
           O mě
         </Link>
         <Link
-          className={`my-3 md_2:mx-3 md_2:my-0 py-2 px-3 rounded-xl bg-yellow-500 text-white `}
+          className={`my-3 md_2:ml-10 md_2:my-0 py-2 px-5 rounded-xl bg-zluta text-white `}
           href="/"
         >
           Napište mi
