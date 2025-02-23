@@ -99,6 +99,106 @@ export default function Home() {
             <div className="bg-gray-400 w-full xl:w-1/3 aspect-square border-2"></div>
           </div>
         </section>
+
+        <section
+          id="o-me"
+          className="flex items-center justify-center flex-col lg:flex-row"
+        >
+          <div className="lg:w-[60%] w-full px-10 py-40 flex flex-col items-start justify-center">
+            <h2 className="text-4xl">
+              Ahoj, já jsem <span className="text-modra font-bold">Filip</span>
+            </h2>
+            <p className="my-5">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
+              sapien sem, ornare ac, nonummy non, lobortis a enim. In sem justo,
+              commodo ut, suscipit at, pharetra vitae, orci. Quisque tincidunt
+              scelerisque libero. Ut tempus purus at lorem. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non numquam eius modi tempora incidunt ut labore
+            </p>
+            <Link
+              className={`py-2 px-5 rounded-xl bg-zluta text-white font-bold z-20`}
+              href="/"
+            >
+              O mně
+            </Link>
+          </div>
+
+          <div className="lg:w-[40%] w-full h-full bg-gray-600"></div>
+        </section>
+        <section
+          id="spolprace"
+          className="flex items-center justify-center flex-col lg:flex-row bg-black"
+        >
+          <div className="lg:w-[40%] w-full h-full bg-gray-600"></div>
+          <div className="lg:w-[60%] w-full px-10 py-40 flex flex-col items-start justify-center text-white">
+            <h2 className="text-4xl">
+              Proces je klíč k{" "}
+              <span className="text-modra font-bold">úspěchu</span>
+            </h2>
+            <p className="my-5">
+              Spolupráce se mnou znamená, že budete součástí mého kreativního
+              procesu, který vás provede celým projektem – od úvodní schůzky až
+              po závěrečné předání projektu. Tento proces jsem vytvořil tak,
+              abyste nikdy nezůstali v nejistotě, v jaké fázi se projekt
+              nachází. Žádné zdlouhavé e-maily, žádné starosti, prostě
+              JEDNODUCHOST.
+            </p>
+            <Link
+              className={`py-2 px-5 rounded-xl bg-zluta text-white font-bold z-20`}
+              href="/"
+            >
+              Zjistěte více
+            </Link>
+          </div>
+        </section>
+        <section
+          id="proc-ja"
+          className="flex items-center justify-center flex-col lg:flex-row"
+        >
+          <div className="lg:w-[40%] w-full px-10 py-40 flex flex-col items-start justify-center">
+            <h2 className="text-4xl">
+              Proč právě <span className="text-modra font-bold">já</span>
+            </h2>
+            <p className="my-5">
+              Vím, jak frustrující může být spolupracovat s někým, kdo Vás
+              nechává tápat v nejistotě. Proto jsem nastavil svůj klientský
+              proces tak, abyste byli součástí každého kroku. Žádné dohady,
+              žádné zmatení, jen jasná cesta k výsledku.
+            </p>
+            <p className="my-5">
+              Práce na brandu by měla být vzrušující a zároveň co nejjednodušší.
+              Proto kladu důraz na hladkou komunikaci a Vaše zapojení, aby byl
+              celý proces co nejpříjemnější. Rád spolupracuji s lidmi, kteří mě
+              inspirují, a vztahy s klienty pro mě nekončí předáním hotového
+              designu. Naopak, sleduji jejich cestu dál a vždy mě potěší, když
+              vidím, kam se jejich značka posouvá.
+            </p>
+            <p className="my-5">
+              Věřím, že nás formují lidé, kterými se obklopujeme – a to platí i
+              pro ty, se kterými pracujeme. ✨
+            </p>
+          </div>
+
+          <div className="lg:w-[60%] w-full h-full bg-gray-600"></div>
+        </section>
+        <section className="flex items-center justify-center flex-col bg-black text-white">
+          <div className="w-full px-10 py-40 flex flex-col items-center justify-center">
+            <h2 className="text-4xl text-center">
+              Máte myšlenku, která potřebuje přivést k{" "}
+              <span className="text-modra font-bold">životu</span>
+            </h2>
+            <p className="my-7 text-center">
+              Naplánujme si krátký poznávací videohovor nebo schůzku zdarma.
+            </p>
+            <Link
+              className={`py-2 px-5 rounded-xl bg-zluta text-white font-bold z-20`}
+              href="/"
+            >
+              Napište mi
+            </Link>
+          </div>
+        </section>
       </main>
     </>
   );
