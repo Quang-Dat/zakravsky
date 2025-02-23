@@ -58,7 +58,7 @@ export default function Home() {
             </Link>
           </div>
           <svg
-            className="absolute -top-40 -left-[400px] z-10"
+            className="absolute -top-40 -left-[750px] sm:-left-[600px]  lg:-left-[400px] z-10"
             width="817"
             height="650"
             viewBox="0 0 817 650"
@@ -76,7 +76,7 @@ export default function Home() {
           </svg>
 
           <svg
-            className="absolute -top-40 -right-[400px] z-10"
+            className="absolute -top-40 -right-[750px] sm:-right-[600px]  lg:-right-[400px] z-10"
             width="817"
             height="650"
             viewBox="0 0 817 650"
@@ -92,6 +92,12 @@ export default function Home() {
               fill="#3FA9F5"
             />
           </svg>
+
+          <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full">
+            <div className="bg-gray-400 w-full xl:w-1/3 aspect-square border-2"></div>
+            <div className="bg-gray-400 w-full xl:w-1/3 aspect-square border-2"></div>
+            <div className="bg-gray-400 w-full xl:w-1/3 aspect-square border-2"></div>
+          </div>
         </section>
       </main>
     </>
